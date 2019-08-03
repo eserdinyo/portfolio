@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Home, Mail, Activity } from 'react-feather'
+import { Home, Mail, Activity, Monitor } from 'react-feather'
 
 const Header = () => (
   <div className="nav-wrapper">
@@ -17,6 +17,12 @@ const Header = () => (
           <Activity />
         </Link>
         Projects
+      </li>
+      <li>
+        <Link to="/stack" className="nav-link">
+          <Monitor />
+        </Link>
+        Tech Stack
       </li>
       <li>
         <Link to="/contact" className="nav-link">
