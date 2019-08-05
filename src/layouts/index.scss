@@ -407,7 +407,8 @@ a {
 }
 
 .stack {
-  background: #fff !important;
+  background: #fff;
+  min-height: 100vh;
 }
 
 .stack-title {

@@ -5,6 +5,9 @@ import react from '../img/stack/react.png';
 import js from '../img/stack/js.png';
 import nuxt from '../img/stack/nuxt.png';
 import scss from '../img/stack/scss.png';
+import git from '../img/stack/git.png';
+import webpack from '../img/stack/webpack.png';
+import node from '../img/stack/node.png';
 
 import { ProjectAnimation } from '../components/IntroAnimation'
 import PageTransition from 'gatsby-plugin-page-transitions'
@@ -29,19 +32,29 @@ const ForthPage = () => (
             </div>
             <div className="stack-list">
                 <div>
-                    <img src={vue} alt="" />
+                    <img src={js} alt="" />
+                </div>
+                <div>
+                    <img src={node} alt="" />
                 </div>
                 <div>
                     <img src={react} alt="" />
                 </div>
                 <div>
-                    <img src={js} alt="" />
+                    <img src={vue} alt="" />
+                </div>
+                <div>
+                    <img src={nuxt} alt="" />
                 </div>
                 <div>
                     <img src={scss} alt="" />
                 </div>
+
                 <div>
-                    <img src={nuxt} alt="" />
+                    <img src={git} alt="" />
+                </div>
+                <div>
+                    <img src={webpack} alt="" />
                 </div>
             </div>
             <ProjectAnimation />
